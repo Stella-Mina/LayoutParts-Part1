@@ -1,2 +1,65 @@
 @charset "UTF-8";
 /* 回答はここから */
+/* ----------text-alignを使って左右中央寄せ---------- */
+.q1-box {
+  display: block;
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  background-color: #fff;
+}
+.align-box {
+  text-align: center;
+}
+.q1-text {
+  display: inline-block;
+  padding: 10px;
+  background: #a4b3e9;
+}
+/* ----------marginを使って左右中央寄せ---------- */
+.margin-box{
+  text-align: center;
+}
+.margin-text {
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+  background: #a4b3e9;
+}
+/* ----------tableを使って上下左右中央寄せ---------- */
+.d-table {
+  display: table;
+}
+.d-cell {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table-text {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+/* ----------flexを使って上下左右中央寄せ---------- */
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 親要素にjustify-content: 水平方向　align-items: 垂直方向　centerで中央 */
+.flex-text{
+  padding: 10px;
+  background-color: #fff;
+}
+/* ----------positionを使って上下左右中央寄せ---------- */
+.p-relative {
+  position: relative;
+}
+.p-absolute{
+  position: absolute;
+  padding: 10px;
+  background: #a4b3e9;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

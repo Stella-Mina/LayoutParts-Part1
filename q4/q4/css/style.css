@@ -1,1 +1,38 @@
 @charset "UTF-8";
+.color-box1,.color-box2{
+font-size: 18px;
+display: flex;
+text-align: center;
+margin-bottom: 50px;
+}
+.color-box1 div,.color-box2 div{
+padding: 20px;
+}
+.red-box{
+background: #ff7b7b;
+width: 300px;
+}
+.blue-box{
+background: #7b86ff;
+flex: 1;
+}
+.yellow-box{
+background: #fff27b;
+width: 300px;
+}
+.green-box{
+background: #7bff91;
+flex: 1;
+}
+.pink-box{
+background: #ff7be2;
+width: 400px;
+}
+.orange-box{
+background: #ffc67b;
+width: 400px;
+}
+.sky-box{
+background: #7bf2ff;
+flex: 1;
+}
