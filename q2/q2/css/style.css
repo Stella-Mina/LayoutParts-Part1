@@ -1,11 +1,13 @@
 @charset "UTF-8";
+
 /* 回答はここから */
-.q2-box{
+.q2-box {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  /* gap: 60pxでもできる; */
 }
-.q2-box li{
+
+.q2-box li {
   list-style: none;
   padding: 10px;
   width: 200px;
@@ -13,4 +15,9 @@
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   background: #d2b48c;
+  margin-left: 60px;
+}
+
+.q2-box li:first-child {
+  margin-left: 0px;
 }
